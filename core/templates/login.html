@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Login</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min-1.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body id="login">
+    <section id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 ">
+                    <div class="form ">
+                       
+                        <form action="" method="POST" novalidate>
+                            <h3 class="text-center text-light">Login Form</h3>
+                            {% csrf_token %}
+                            {% if form.non_field_errors %}
+                            {% for error in form.non_field_errors %}
+                               <p class="text-danger">{{error}}</p>
+                            {% endfor %}
+                            {% endif %}
+                             
+
+                            {% for fm in form %}
+                              {{fm.label_tag}} {{fm}} <span class="error_list text-danger">{{fm.errors|striptags}}</span> <br> <br>
+                            {% endfor %}
+                            <input type="submit" class="login" value="Login">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+  
+
+    <script src="{% static 'js/popper.min.js'  %}" ></script>
+    <script src="{% static 'js/bootstrap.min.js'  %}" ></script>
+</body>
+</html>

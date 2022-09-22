@@ -1,0 +1,315 @@
+
+@media screen and (max-width:1198px){
+  
+  
+   .circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 123px;
+    font-size: 29px;
+
+	}
+        
+
+		  .circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 123px;
+    font-size: 29px;
+
+	}
+       
+	     .circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 123px;
+    font-size: 29px;
+
+	}
+       
+}
+
+
+@media screen and (max-width:990px){
+             .circle1 p {
+              position: absolute;
+              top: 60px;
+             left: 78px;
+             font-size: 29px;
+			 }
+			.circle2 p {
+              position: absolute;
+              top: 60px;
+             left: 78px;
+             font-size: 29px;
+			 } 
+			 .circle3 p {
+              position: absolute;
+              top: 60px;
+             left: 78px;
+             font-size: 29px;
+			 }
+			 
+}
+
+@media screen and (max-width:766px){
+
+
+.circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 227px;
+    font-size: 29px;
+           }
+.circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 227px;
+    font-size: 29px;
+           }
+		   .circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 227px;
+    font-size: 29px;
+           }
+
+
+
+}
+@media screen and (max-width:600px){
+.circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 193px;
+    font-size: 29px;
+      }
+.circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 193px;
+    font-size: 29px;
+      }
+	  .circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 193px;
+    font-size: 29px;
+      }
+
+
+
+}
+
+@media screen and (max-width:520px){
+
+    .circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 165px;
+    font-size: 29px;
+               }
+			    .circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 165px;
+    font-size: 29px;
+               }
+			    .circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 165px;
+    font-size: 29px;
+               }
+}
+
+@media screen and (max-width:460px){
+
+.circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 140px;
+    font-size: 29px;
+        }
+		.circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 140px;
+    font-size: 29px;
+        }
+		.circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 140px;
+    font-size: 29px;
+        }
+
+}
+@media screen and (max-width:400px){
+.circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 108px;
+    font-size: 29px;
+             }
+			 .circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 108px;
+    font-size: 29px;
+             }
+			 .circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 108px;
+    font-size: 29px;
+             }
+
+}
+@media screen and (max-width:350px){
+
+.circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 82px;
+     font-size: 29px;
+    }
+	.circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 82px;
+     font-size: 29px;
+    }
+
+	.circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 82px;
+     font-size: 29px;
+    }
+
+
+}
+
+@media screen and (max-width:307px){
+.circle1 p {
+    position: absolute;
+    top: 60px;
+    left: 69px;
+    font-size: 29px;
+      }
+	  .circle2 p {
+    position: absolute;
+    top: 60px;
+    left: 69px;
+    font-size: 29px;
+      }
+	  .circle3 p {
+    position: absolute;
+    top: 60px;
+    left: 69px;
+    font-size: 29px;
+      }
+
+}
+
+
+@media screen and (max-width:392px){
+
+.portfolio_box img {
+    width: 251px;
+   }
+
+}
+
+
+@media screen and (max-width:330px){
+
+.portfolio_box img {
+    width: 209px;
+   }
+
+}
+
+@media screen and (max-width:524px){
+
+  .portfolio_menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 13px;
+    margin-top: 20px;
+      }
+
+
+}
+
+
+@media screen and (max-width:410px){
+
+  .portfolio_menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 38px;
+    margin-top: 20px;
+      }
+
+
+}
+
+
+@media screen and (max-width:346px){
+
+  .portfolio_menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 26px;
+    margin-top: 20px;
+      }
+
+
+}
+
+@media screen and (max-width:510px){
+
+.frist_hlaf input[type="text"] {
+    width: 222px;
+    background: #273A71;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+}
+
+@media screen and (max-width:992px){
+ 
+#menu{
+
+  display:none;
+  
+  
+   }
+   #menu ul {
+      display:block;
+	  text-align:left;
+	 cursor:pointer;
+   }
+	i.fas.fa-bars {      
+                      display: block;
+					  float:right;
+					  font-size:30px;
+					  color:#fff;
+                         }
+					
+
+
+
+}
+
+
+
+
+
+
+

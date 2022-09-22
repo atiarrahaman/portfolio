@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>My Resume | Home </title>
+{% endblock title %}
+{% block content %}
+ <div class="img ">
+     <img class="img-thumbnail" src="{% static 'img/m3.png'%}" alt="">
+ </div>
+ <div class="content_home_page">
+  <h4>Hello</h4>
+  <p>I’m <b class="text-warning">Atiar Rahaman here</b> , first became interested in website development as a student of English Literature at the University of Madhabdi, and over the next 2 years, taught and continue to teach myself Python Django, HTML, CSS, PHP, Javascript & jQuery programming and WordPress custom theming. Prior to becoming a professional web developer, I spent 6 months in marketing communications, primarily as a virtual assistant in the IT sector. In addition to website design & development, I also dabble in other creative services, including graphic design & digital publishing, editing, social media management, events, and virtual assistant.</p>
+   <a class="btn btn-outline-warning " href="{% url 'contact' %}">Hire Me</a>
+   <a class="btn btn-outline-info " href="{% url 'contact' %}">Contact</a>
+ </div>
+
+
+{% endblock content %}

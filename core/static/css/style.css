@@ -1,0 +1,123 @@
+
+/* for home page  */
+
+section{
+	
+	padding-bottom: 50px;
+}
+
+
+.content img{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	
+	margin-top: 20px;
+}
+.content h4{
+	margin-top: 10px;
+	font-family: 'Satisfy', cursive;
+}
+
+.menu ul li{
+	list-style: none;
+	text-align: justify;
+	margin-top: 10px;
+	
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	padding:5px  15px;
+	
+}
+
+.menu ul li a:hover{
+	background: rgb(243, 243, 6);
+	color: #000; 
+}
+
+.menu ul li a.active{
+	background: rgb(243, 243, 6);
+
+}
+
+.menu ul li a.active{
+	background: rgb(243, 243, 6);
+	color: #000; }
+
+.img img{
+	width: 300px;
+	text-align: right;
+}
+.img {
+	
+	text-align: center;
+	margin-top: 30px;
+}
+
+ .content_home_page h4{
+	margin-top: 30px;
+	font-family: 'Satisfy', cursive;
+	color: #fff;
+}
+
+.content_home_page p{
+	text-indent: 100px;
+	color: #fff;
+	line-height: 35px;
+}
+
+.content_home_page a{
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.box  {
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
+.box h4 {
+	
+	margin-top: 20px;
+}
+.form{
+	background-color: purple;
+	margin-top: 50px;
+	border-radius: 7px;
+}
+.form h3{
+	margin-top: 40px !important;
+}
+.form form{
+
+	margin-top: 50px;
+	padding: 10px;
+	height: 500px;
+}
+.form form label{
+	color: #fff;
+}
+#login{
+	background-color: #000;
+}
+input {
+	
+	width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	outline: none;
+  }
+.login {
+	
+	width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	background: #00ffcf;
+	font-size: 20px;
+  }
+
