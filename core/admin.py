@@ -6,3 +6,7 @@ from  .models import *
 @admin.register(Contact)
 class contactAdmin(admin.ModelAdmin):
     list_display=('id','name','email','subject','text')
+
+@admin.register(Projcts)
+class ProjectsAdmin(admin.ModelAdmin):
+    list_display=['id','title','link']

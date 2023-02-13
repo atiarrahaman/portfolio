@@ -2,6 +2,7 @@ from django.shortcuts import render ,HttpResponse, redirect
 from .models import *
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import authenticate, login,logout
+
 # Create your views here.
 
 def home (request):
@@ -56,3 +57,11 @@ def Profile(request):
 def Logout(request):
     logout(request)
     return redirect('/login')
+
+def MyProjects(request):
+    prj=Projcts.objects.all()
+    context={'projects':'active','prj':prj}
+    return render(request,'myprojects.html',context)
+
+# def Pdetails(request):
+#     return render (request,'pdetals.html')

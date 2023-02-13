@@ -10,4 +10,9 @@ class Contact(models.Model):
     text=models.TextField()
     def __str__(self):
          return self.name
+
+class Projcts (models.Model):
+    title=models.CharField(max_length=250)
+    img=models.ImageField(upload_to='projects-img')
+    link=models.CharField(max_length=250,blank=True,null=True)
      

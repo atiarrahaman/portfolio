@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="title">
+    <h2 class="text-warning mt-5 ">My Projects</h2>
+    <hr class="border-light" >
+
+
+</div>
+<div class="container">
+    <div class="row">
+
+        {% for i in  prj %}
+        <div class="col-md-6">
+            <div class="projects_img">
+             <a href=""><img src="{{ i.img.url}}" alt=""></a>
+
+              <a href=""><h4>{{i.title}}</h4></a>
+             <a class="btn btn-danger" target="_blank" href="{{i.link}}">Live View</a>
+             
+            </div>
+
+        </div>
+        {% endfor %}
+
+        
+
+    </div>
+</div>
+   
+{% endblock content %}
+
